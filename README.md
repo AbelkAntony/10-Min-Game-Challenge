@@ -10,3 +10,7 @@ I use SceneManager.LoadScene function to restart the game when the ball collide 
 
 
 #ScreenShots
+
+![Capture1](/ScreenShots/1.png)
+![Capture1](/ScreenShots/2.png)
+![Capture1](/ScreenShots/3.png)
