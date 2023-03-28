@@ -8,6 +8,12 @@ If the ball collide with the hexagon the game will restart from the beginning . 
 Also add circle collider 2d to ball to detect if the ball collide with hexagon . 
 I use SceneManager.LoadScene function to restart the game when the ball collide with hexagon.
 
+Freatures
+-movement arond the axis for ball
+-Hexagon spwan in different angle
+-shrink hexagon towards center
+-destroy hexagon at a fixed point
+
 
 #ScreenShots
 
