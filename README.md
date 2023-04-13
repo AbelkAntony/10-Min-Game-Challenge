@@ -1,4 +1,4 @@
-# 10-Min-Game-Challenge
+# ESCAPE
  
 The game is that the player have a white ball at the middle of the screen . The ball can be move around the black circle located in the center of the game screen . 
 At a fixed time interval hexagon spawn from the outside the game window and shirk . 
