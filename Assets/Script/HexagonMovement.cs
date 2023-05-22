@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HexagonMovement : MonoBehaviour
 {
+
+    public GameManager game;
     
     public Rigidbody2D hexagon;
 
@@ -23,6 +25,7 @@ public class HexagonMovement : MonoBehaviour
         if(transform.localScale.x <= 0.5f)
         {
             Destroy(gameObject);
+            game.AddPoint();
         }
 
     }
