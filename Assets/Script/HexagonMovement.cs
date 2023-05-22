@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HexagonMovement : MonoBehaviour
 {
+    private bool dead = false;
 
     public GameManager game;
     
@@ -24,10 +25,16 @@ public class HexagonMovement : MonoBehaviour
 
         if(transform.localScale.x <= 0.5f)
         {
-            Destroy(gameObject);
             game.AddPoint();
+            Destroy(gameObject);
+
         }
 
+    }
+    public bool isDead()
+    {
+        return dead;
+        
     }
 
 }

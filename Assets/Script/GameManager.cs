@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private int point;
+    public int point;
 
-    public void ResetPoint()
-    {
-        point = 0;
-    }
+    public HexagonMovement hexagon;
 
     public void AddPoint()
     {
