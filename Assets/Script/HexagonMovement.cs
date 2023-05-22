@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HexagonMovement : MonoBehaviour
 {
-
+    
     public Rigidbody2D hexagon;
 
     public float shrinkSpeed = 3f;
@@ -26,4 +26,5 @@ public class HexagonMovement : MonoBehaviour
         }
 
     }
+
 }

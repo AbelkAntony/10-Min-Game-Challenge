@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 600f;
 
+    private int point;
+
     public float movement;
 
     // Update is called once per frame
@@ -22,5 +24,11 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        point = 0;
+    }
+    public void AddPoint()
+    {
+        point++;
+        Debug.Log(point);
     }
 }
