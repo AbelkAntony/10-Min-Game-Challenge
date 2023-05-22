@@ -229,5 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ac6ab488f21e44ca59654725bab654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  game: {fileID: 3353354562084198129, guid: 1e4adcdc43e7e8243bc7cf98c14fb097, type: 3}
   hexagon: {fileID: 5392534065425211344}
   shrinkSpeed: 3

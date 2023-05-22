@@ -4,11 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
+
+    public GameManager game;
     public float moveSpeed = 600f;
 
     private int point;
 
     public float movement;
+
+    private void Start()
+    {
+       // game.ResetPoint();
+    }
 
     // Update is called once per frame
     void Update()
@@ -24,11 +31,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        point = 0;
+        game.ResetPoint();
     }
-    public void AddPoint()
-    {
-        point++;
-        Debug.Log(point);
-    }
+
 }

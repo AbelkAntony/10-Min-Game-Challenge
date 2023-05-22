@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HexagonMovement : MonoBehaviour
 {
-    private bool dead = false;
 
     public GameManager game;
     
@@ -30,11 +29,6 @@ public class HexagonMovement : MonoBehaviour
 
         }
 
-    }
-    public bool isDead()
-    {
-        return dead;
-        
     }
 
 }

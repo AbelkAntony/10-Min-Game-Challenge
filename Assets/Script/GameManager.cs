@@ -8,8 +8,14 @@ public class GameManager : MonoBehaviour
 
     public HexagonMovement hexagon;
 
+
     public void AddPoint()
     {
         point++;
+    }
+
+    public void ResetPoint()
+    {
+        point = 0;
     }
 }
