@@ -9,10 +9,10 @@ Also add circle collider 2d to ball to detect if the ball collide with hexagon .
 I use SceneManager.LoadScene function to restart the game when the ball collide with hexagon.
 
 Freatures
--movement arond the axis for ball
--Hexagon spwan in different angle
--shrink hexagon towards center
--destroy hexagon at a fixed point
+- Movement arond the axis for ball
+- Hexagon spwan in different angle
+- Shrink hexagon towards center
+- Destroy hexagon at a fixed point
 
 
 https://user-images.githubusercontent.com/122546743/234297796-093bfdb4-76c8-400c-a501-be11607755c9.mp4
